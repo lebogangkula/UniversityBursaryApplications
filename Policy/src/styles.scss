@@ -6,3 +6,12 @@ body {
       color: #333;
       line-height: 1.6;
     }
+     /* Mobile adjustments */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px; /* small spacing on phones */
+      }
+      app-root {
+        width: 100%;   /* take full width on small screens */
+      }
+    }
